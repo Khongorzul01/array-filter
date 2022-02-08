@@ -27,14 +27,11 @@ const characters = [
     gender: 'male', 
     }, 
     ];
-// let a =0;
-// for(let i=0; i<characters.length; i++){
 
-// }
     function genderMale(value){
         return value.gender == "male"
     }
     let maleGender = characters.filter(genderMale);
     console.log(maleGender);
-    // document.getElementById("answer").innerHTML = maleGender;
+  
     
